@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Sparkles, Mail } from 'lucide-react'
-import { Discord } from '@icons-pack/react-simple-icons'
+import { FaDiscord } from 'react-icons/fa'
 
 export const Hero = () => {
   return (
@@ -45,7 +45,7 @@ export const Hero = () => {
             rel="noopener noreferrer"
             className="px-8 py-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold rounded-full hover:from-purple-500 hover:to-blue-500 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-400/25 flex items-center justify-center gap-2"
           >
-            <Discord size={20} />
+            <FaDiscord size={20} />
             Discord
           </a>
           <a 
